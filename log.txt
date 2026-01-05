@@ -1,0 +1,24 @@
+📝 Project Log: Smart-Organizer
+Current State:
+
+Code: organizer.py is updated with pathlib and shutil.
+
+Logic: Successfully implemented the "Dev Challenge" using an if/else block to move unknown file extensions into an "Others" folder.
+
+Status: The script is written, and dummy files were created in a test_files/ directory for testing.
+
+Issues Resolved:
+
+PowerShell Commands: Used New-Item to create test files after touch failed.
+
+Encoding Fix: Resolved a SyntaxError (non-UTF-8 code) by ensuring the script is saved with UTF-8 encoding instead of UTF-16.
+
+Git: Staged the changes and prepared for a final push to GitHub.
+
+Next Steps:
+
+Cleanup: Create a .gitignore to keep test_files/ out of the repository.
+
+CLI Upgrade: Replace input() with the argparse library to allow passing folder paths as command-line arguments (e.g., python organizer.py ./my_folder).
+
+Expansion: Add more categories (Video, Audio) to the EXTENSIONS dictionary.
